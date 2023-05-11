@@ -1,4 +1,9 @@
 public class Tile {
+    protected int value;
+
+    public Tile(int value) {
+        this.value = value;
+    }
 
     @Override
     public boolean equals(Object other) {
